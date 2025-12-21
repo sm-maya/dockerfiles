@@ -1,0 +1,5 @@
+FROM almalinux:9
+ENV COURSE="DOCKER" \
+    TRAINER="MUJAFAR" \
+    DURATION="5 DAYS"
+CMD ["sleep", "1000"]
